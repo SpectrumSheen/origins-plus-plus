@@ -1,6 +1,6 @@
 {
     "name": "Aichmomania",
-    "description": "You have an obsessive love for sharp and pointy things such as knives, so you became well versed on how to fight with them.\n\nThe damage you do with swords adds an extra heart of damage.",
+    "description": "You have an obsessive love for sharp edged things such as axes, so you became well versed on how to fight with them.\n\nThe damage you do with axes adds an extra 2 hearts of damage.",
     "condition": {
         "type": "origins:equipped_item",
         "equipment_slot": "mainhand",
@@ -10,43 +10,43 @@
                 {
                     "type": "origins:ingredient",
                     "ingredient": {
-                        "item": "wooden_sword"
+                        "item": "wooden_axe"
                     }
                 },
                 {
                     "type": "origins:ingredient",
                     "ingredient": {
-                        "item": "stone_sword"
+                        "item": "stone_axe"
                     }
                 },
                 {
                     "type": "origins:ingredient",
                     "ingredient": {
-                        "item": "iron_sword"
+                        "item": "iron_axe"
                     }
                 },
                 {
                     "type": "origins:ingredient",
                     "ingredient": {
-                        "item": "diamond_sword"
+                        "item": "diamond_axe"
                     }
                 },
                 {
                     "type": "origins:ingredient",
                     "ingredient": {
-                        "item": "golden_sword"
+                        "item": "golden_axe"
                     }
                 },
                 {
                     "type": "origins:ingredient",
                     "ingredient": {
-                        "item": "netherite_sword"
+                        "item": "netherite_axe"
                     }
                 },
                 {
                     "type": "origins:ingredient",
                     "ingredient": {
-                        "item": "netherite_sword"
+                        "item": "netherite_axe"
                     }
                 }
             ]
@@ -56,7 +56,7 @@
     "modifier": {
         "attribute": "generic.attack_damage",
         "operation": "addition",
-        "value": 2,
+        "value": 4,
         "name": "ATK Increase"
     },
     "tick_rate": 1,
